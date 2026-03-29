@@ -84,5 +84,3 @@ Si le Play Store indique que l'appareil n'est pas compatible :
 3.  Installez l'APK manuellement.
 
 ---
-
-> **Note Stoïcienne :** La patience est la clé du succès technique. Si un obstacle survient, ne vous troublez pas, reprenez les étapes avec calme.
