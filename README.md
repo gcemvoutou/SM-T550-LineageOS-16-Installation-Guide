@@ -28,13 +28,16 @@ La **Samsung Galaxy Tab A 9.7 (2015)** est une tablette robuste mais limitée pa
 * **Câble :** USB vers Micro-USB (transfert de données).
 * **PC :** Windows 10/11.
 
-### Logiciels & Fichiers
-| Type | Fichier | Rôle |
-| :--- | :--- | :--- |
-| **PC** | [Odin v3.14.4](https://odindownload.com/) | Logiciel de flash Samsung |
-| **PC** | [TWRP .tar](https://twrp.me/) | Recovery pour installer les ZIP |
-| **Tablet** | [LineageOS 16.0 .zip](https://androidfilehost.com/) | Le nouveau système Android 9 |
-| **Tablet** | [OpenGApps ARM 9.0 .zip](https://opengapps.org/) | Play Store et Services Google |
+### 🛠 Logiciels & Fichiers
+
+| Type | Fichier | État requis | Rôle |
+| :--- | :--- | :--- | :--- |
+| **PC** | [Odin v3.14.4](https://odindownload.com/) | **Dézippé** | Logiciel à lancer sur votre ordinateur. |
+| **PC** | [TWRP .tar](https://twrp.me/) | **Non dézippé** | Fichier à charger dans la case "AP" d'Odin. |
+| **Tablette** | [LineageOS .zip](https://androidfilehost.com/) | **Non dézippé** | Le nouveau système (à installer via TWRP). |
+| **Tablette** | [OpenGApps .zip](https://opengapps.org/) | **Non dézippé** | Le Play Store (à installer via TWRP). |
+
+> **⚠️ ATTENTION :** Ne décompressez jamais les fichiers destinés à la tablette (fichiers `.zip`). Le menu de récupération (TWRP) a besoin de ces fichiers "emballés" pour pouvoir les lire et les installer correctement.
 
 ---
 
