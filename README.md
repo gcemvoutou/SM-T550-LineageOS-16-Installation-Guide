@@ -46,6 +46,7 @@ La **Samsung Galaxy Tab A 9.7 (2015)** est une tablette robuste mais limitée pa
     * Cliquez sur **AP** et sélectionnez votre fichier `twrp_xxx.tar`.
     * **CRUCIAL :** Dans l'onglet **Options**, décochez **Auto Reboot**.
 4.  **Flash :** Cliquez sur **Start**. Une fois "PASS" affiché, débranchez la tablette.
+   <br>
     <img src="photo_odin.png" alt="Capture d'écran de la configuration d'Odin" width="600px"/>
 
 ---
