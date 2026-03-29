@@ -28,17 +28,25 @@ La **Samsung Galaxy Tab A 9.7 (2015)** est une tablette robuste mais limitée pa
 * **Câble :** USB vers Micro-USB (transfert de données).
 * **PC :** Windows 10/11.
 
-### 🛠 Logiciels & Fichiers
+### 🛠 Logiciels & Pilotes (Drivers)
 
-| Type | Fichier | État requis | Rôle |
+> **⚠️ IMPORTANT :** Avant de commencer, vous devez installer les pilotes Samsung sur votre PC pour que celui-ci puisse "voir" la tablette.
+
+| Support | Logiciel / Fichier | État requis | Rôle |
 | :--- | :--- | :--- | :--- |
-| **PC** | [Odin v3.14.4](https://odindownload.com/) | **Dézippé** | Logiciel à lancer sur votre ordinateur. |
-| **PC** | [TWRP .tar](https://twrp.me/) | **Non dézippé** | Fichier à charger dans la case "AP" d'Odin. |
-| **Tablette** | [LineageOS .zip](https://androidfilehost.com/) | **Non dézippé** | Le nouveau système (à installer via TWRP). |
-| **Tablette** | [OpenGApps .zip](https://opengapps.org/) | **Non dézippé** | Le Play Store (à installer via TWRP). |
+| **PC** | [Pilotes USB Samsung](https://developer.samsung.com/android-usb-driver) | **Installé** | Permet au PC de reconnaître la tablette. |
+| **PC** | [Odin v3.14.4](https://odindownload.com/) | **Dézippé** | Logiciel de flash à lancer sur le PC. |
+| **PC** | [TWRP .tar](https://twrp.me/) | **Non dézippé** | Fichier à charger dans Odin (case AP). |
+| **Tablette** | [LineageOS .zip](https://androidfilehost.com/) | **Non dézippé** | Le nouveau système Android 9. |
+| **Tablette** | [OpenGApps .zip](https://opengapps.org/) | **Non dézippé** | Le Play Store et services Google. |
 
-> **⚠️ ATTENTION :** Ne décompressez jamais les fichiers destinés à la tablette (fichiers `.zip`). Le menu de récupération (TWRP) a besoin de ces fichiers "emballés" pour pouvoir les lire et les installer correctement.
+---
 
+### ⚙️ Installation des Pilotes (Étape 0)
+1. Téléchargez les **Pilotes USB Samsung** via le lien ci-dessus.
+2. Lancez l'installation sur votre ordinateur (double-cliquez sur le fichier `.exe`).
+3. Suivez les étapes et redémarrez votre PC si nécessaire.
+4. Une fois installé, votre PC affichera une notification dès que vous brancherez la tablette.
 ---
 
 ## ⚡ Étape 1 : Configuration d'Odin & Recovery
